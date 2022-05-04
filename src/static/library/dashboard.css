@@ -1,0 +1,105 @@
+body {
+    background: url("../users/media/login-bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dashboard {
+    display: grid;
+    place-items: center;
+    gap: 0;
+
+    background-color: #f8fafc;
+    width: 55%;
+    height: 70%;
+}
+
+.loans-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 600px;
+
+    margin-bottom: 15px;
+}
+
+.loans-header__left {
+    display: flex;
+    gap: 20px;
+
+    height: 50px;
+}
+
+.loans-header__right {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.loans-header__right span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.loans-header__right a {
+    color: #dc2626;
+}
+
+.loans {
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+}
+
+.loans__header {
+    padding: 15px;
+
+    background-color: #3f3f46;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.loans__list {
+    background-color: white;
+}
+
+.list__item {
+    border-top: 1px solid;
+    border-color: rgb(226 232 240);
+}
+
+.list__item_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 25px;
+}
+
+.list__item_content .book-title {
+    font-size: 1.25rem;
+    font-weight: 500; 
+}
+
+.list__item_content .book-uid {
+    color: #4B5563;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+.list__item_content .book-late-date {
+    color: #dc2626;
+    font-size: 0.9rem;
+}
+
+.list__item_content .book-date {
+    color: #4B5563;
+    font-size: 0.9rem;
+}
